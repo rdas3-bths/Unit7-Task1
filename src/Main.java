@@ -8,8 +8,6 @@ public class Main {
     public static void main(String[] args) {
         // Sample input answer part one: 14
         // sample input answer part two: 3
-        // Test input answer part one: 612
-        // Test input answer part two: 83
         ArrayList<String> fileData = getFileData("data/brick_layout");
         ArrayList<Brick> bricks = new ArrayList<Brick>();
         for (String line : fileData) {
